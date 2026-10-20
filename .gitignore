@@ -1,0 +1,31 @@
+# Dependencies
+/node_modules/
+
+# Build and test output
+/dist/
+/coverage/
+.vite/
+.vitest-cache/
+*.tsbuildinfo
+
+# Local environment files
+.env*
+!.env.example
+!.env.*.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local editor settings
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.idea/
